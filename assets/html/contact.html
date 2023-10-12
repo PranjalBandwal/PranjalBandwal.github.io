@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-206103165-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-206103165-1');
+    </script>
+
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="/assets/css/cursor.css">
+    <link rel="stylesheet" href="/assets/css/contact.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+
+    <div class="cursor-dot-outline"></div>
+    <div class="cursor-dot"></div>
+
+    <div id="loading"></div>   
+    <div id="navbar"></div>
+
+    <div class="contact_page">
+
+        <div class="contactme_title" data-aos="fade-left" data-aos-once="true">
+          <span class="text-wrapper">
+            <span class="letters">Contact Me</span>
+            <span class="line"></span>
+          </span>
+        </div>
+    
+        <div class="contactme">
+          <div class="container_form">
+              <div class="row">
+
+                  <div class="contact-info">
+
+                      <div class="contact-info-item" data-aos="fade-right" data-aos-once="true">
+                          <div class="contact-info-icon">
+                              <!-- <i class="fas fa-github"></i> -->
+                              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                          </div>
+                          <div class="contact-info-content">
+                              <h4>github</h4>
+                              <p>Pranjal Bandwal</p>
+                          </div>
+                      </div>
+
+                      <div class="contact-info-item" data-aos="fade-right" data-aos-once="true">
+                          <div class="contact-info-icon">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                          </div>
+                          <div class="contact-info-content">
+                              <h4>LinkedIn</h4>
+                              <p>pranjalbandwal</p>
+                          </div>
+                      </div>
+
+                      <div class="contact-info-item" data-aos="fade-right" data-aos-once="true">
+                          <div class="contact-info-icon">
+                              <!-- <i class="fas fa-envelope"></i> -->
+                              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                          </div>
+                          <div class="contact-info-content">
+                              <h4>Email</h4>
+                              <p>bandwal9@gmail.com</p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="contact-form" data-aos="fade-left" data-aos-once="true">
+                      <form id="contact-form" method="POST" action="https://formsubmit.co/bandwal9@gmail.com">
+                          <h2>Send a message</h2>
+                          <div class="input-box">
+                              <input type="text" required="true" name="name" placeholder="Name">
+                          </div>
+
+                          <div class="input-box">
+                              <input type="email" required="true" name="email" placeholder="Email">
+                          </div>
+
+                          <div class="input-box">
+                              <textarea required="true" name="message" placeholder="Type your message here..."></textarea>
+                          </div>
+
+                          <div class="input-box">
+                              <input type="submit" value="Send">
+                          </div>
+                          <input type="hidden" name="_captcha" value="false">
+                          <input type="hidden" name="_template" value="box">
+                          <input type="hidden" name="_next" value="/assets/html/thankyou.html">
+                          <input type="hidden" name="_url" value="">
+                      </form>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+
+      <!-- <div class="map-responsive" data-aos="fade-up" data-aos-once="true">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236.5158145317209!2d73.82082369803288!3d18.47219431351003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2955da90d962f%3A0xb3cf89eba7907ece!2zMTjCsDI4JzIwLjAiTiA3M8KwNDknMTUuMSJF!5e0!3m2!1sen!2sin!4v1630685123164!5m2!1sen!2sin" loading="lazy"></iframe>
+      </div> -->
+    
+      </div>
+
+    <footer>
+        <div class="footer_line">
+          <h3>Made with <i class="fas fa-heart" aria-hidden="true"></i> Pranjal Bandwal</h3>
+        </div>
+      </footer>
+
+    <script src="/assets/js/cursor.js"></script>
+    <script src="/assets/js/contact.js"></script>
+</body>
+</html>
